@@ -34,26 +34,26 @@ The classification is done using an AI text classification model, without manual
 
   Project Folder Structure  
 
-  backend/
+backend/
 │
 ├── config/
-│   ├── db.js
-│   └── openai.js
+│ ├── db.js
+│ └── openai.js
 │
 ├── controllers/
-│   ├── authController.js
-│   └── reviewController.js
+│ ├── authController.js
+│ └── reviewController.js
 │
 ├── models/
-│   ├── User.js
-│   └── Review.js
+│ ├── User.js
+│ └── Review.js
 │
 ├── middleware/
-│   └── authMiddleware.js
+│ └── authMiddleware.js
 │
 ├── routes/
-│   ├── authRoutes.js
-│   └── reviewRoutes.js
+│ ├── authRoutes.js
+│ └── reviewRoutes.js
 │
 ├── .env
 ├── server.js
